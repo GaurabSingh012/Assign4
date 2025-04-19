@@ -4,6 +4,11 @@ class Main {
         
         System.out.println("****" + "Creating Deck" + "****");
         deck.createDeck();
+
+        System.out.println("****" + "Print Deck" + "****");
+        deck.displayDeck(deck.deck);
+
+
     }
 
     
