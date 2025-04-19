@@ -41,4 +41,19 @@ class Deck {
     
     }
     
+    public void players() {
+    shuffleDeck();
+
+    ArrayList<Card> player1 = new ArrayList<>();
+    ArrayList<Card> player2 = new ArrayList<>();
+    ArrayList<Card> player3 = new ArrayList<>();
+
+    for (int i = 0; i < 5; i++) {
+        player1.add(deck.remove(0));
+        player2.add(deck.remove(0));
+        player3.add(deck.remove(0));
+    }
+}
+
+
 }
