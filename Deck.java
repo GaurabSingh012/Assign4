@@ -1,3 +1,7 @@
-public class Deck {
-    
+class Deck {
+    ArrayList<Card> deck;
+
+    public Deck() {
+        this.deck = new ArrayList<>();
+    }
 }
