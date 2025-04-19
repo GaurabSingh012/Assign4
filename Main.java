@@ -11,10 +11,6 @@ class Main {
         deck.shuffleDeck();
         deck.displayDeck(deck.deck);
         
-
-
+        deck.randomCards();
     }
-
-    
-
 }
