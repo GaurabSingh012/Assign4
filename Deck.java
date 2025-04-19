@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Random;
 
 class Deck {
     ArrayList<Card> deck;
@@ -28,4 +29,16 @@ class Deck {
     Collections.shuffle(deck);
     }
 
+
+    public void randomCards() {
+    Random rand = new Random();
+    int randomIndex1 = rand.nextInt(deck.size());
+    Card randomCard1 = deck.get(randomIndex1);
+    int randomIndex2 = rand.nextInt(deck.size());
+    Card randomCard2 = deck.get(randomIndex2);
+    System.out.println("Random Card: " + randomCard1);
+    System.out.println("Random Card: " + randomCard2);
+    
+    }
+    
 }
