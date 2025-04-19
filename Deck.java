@@ -17,5 +17,11 @@ class Deck {
         }
     }
     }
+    public void displayDeck(ArrayList<Card> hand) {
+        for (Card card : hand) {
+            System.out.println(card);
+        }
+    }
+    
 
 }
