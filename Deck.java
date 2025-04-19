@@ -53,6 +53,15 @@ class Deck {
         player2.add(deck.remove(0));
         player3.add(deck.remove(0));
     }
+    System.out.println("Player 1's hand:");
+    displayDeck(player1);
+
+    System.out.println("\nPlayer 2's hand:");
+    displayDeck(player2);
+
+    System.out.println("\nPlayer 3's hand:");
+    displayDeck(player3);
+
 }
 
 
