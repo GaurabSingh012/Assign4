@@ -7,6 +7,10 @@ class Main {
 
         System.out.println("****" + "Print Deck" + "****");
         deck.displayDeck(deck.deck);
+        
+        deck.shuffleDeck();
+        deck.displayDeck(deck.deck);
+        
 
 
     }
